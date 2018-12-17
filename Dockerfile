@@ -32,6 +32,8 @@ COPY docker-entrypoint.sh /
 
 VOLUME /data
 
+EXPOSE 80 443
+
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD [ \
   
