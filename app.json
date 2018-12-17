@@ -1,9 +1,9 @@
 {
-  "name": "mtproxy",
+  "name": "kooftie",
   "description": "deploy mtproxy to Heroku.",
   "keywords": ["mtproxy"],
   
-  "website": "https://github.com/instkffff/mtproxy-1",
-  "repository": "https://github.com/instkffff/mtproxy-1",
+  "website": "https://github.com/shotgunner/mtproxy-1",
+  "repository": "https://github.com/shotgunner/mtproxy-1",
   "stack": "container"
  }
