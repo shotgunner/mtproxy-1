@@ -116,4 +116,4 @@ echo $PORT
 echo "END :)"
 
 # exec /mtproxy/mtproto-proxy -p 2398 -H 443 -M "$WORKERS" -C 60000 --aes-pwd /etc/telegram/hello-explorers-how-are-you-doing -u root $CONFIG --allow-skip-dh --nat-info "$INTERNAL_IP:$IP" $SECRET_CMD $TAG_CMD
-exec /mtproxy/mtproto-proxy "$@" --aes-pwd ${REMOTE_SECRET} --user root ${REMOTE_CONFIG} --nat-info "$INTERNAL_IP:$EXTERNAL_IP" ${SECRET_CMD} ${TAG_CMD}
+exec /mtproxy/mtproto-proxy "$@" -H ${PORT} --aes-pwd ${REMOTE_SECRET} --user root ${REMOTE_CONFIG} --nat-info "$INTERNAL_IP:$EXTERNAL_IP" ${SECRET_CMD} ${TAG_CMD}
