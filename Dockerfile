@@ -32,7 +32,7 @@ COPY docker-entrypoint.sh /
 
 VOLUME /data
 
-EXPOSE 1000-9999
+EXPOSE 1000+9999
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD [ \
